@@ -129,6 +129,31 @@
     border-radius: 20px;
     color: #C4C4C4;
     font-weight: 700;
+    text-align: center;
+  }
+
+  .footer-bg{
+      background: #242424;
+      width: 100%;
+      height: 100vh;
+      padding: 50px;
+  }
+
+  .footer{
+      color: #46c246;
+      background: #181818;
+      padding: 50px;
+      display: flex;
+      gap: 200px;
+      flex-direction: column;
+      height: 100%;
+      font-size: 3rem;
+      text-align: left;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .color-roxo{
+      color: #a333b9;
   }
 
 @media (max-width: 980px){
@@ -143,4 +168,11 @@
     .undraw-img img{
         display: none;
     } 
+
+}
+
+@media (max-width: 600px) {
+    .footer{
+        font-size: 2rem;
+    }
 }
