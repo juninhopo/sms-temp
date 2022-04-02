@@ -93,6 +93,11 @@
     border-radius: 20px;
     margin-top: 20px;
     cursor: pointer;
+    transition: .2s;
+}
+
+.button-card:hover{
+    background: #646464;
 }
 
 #overlay {
