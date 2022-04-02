@@ -1,0 +1,5 @@
+const Cidade = 
+
+function getTemp() {
+
+}
