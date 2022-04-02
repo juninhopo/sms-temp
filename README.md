@@ -6,3 +6,4 @@
 
 
 **Figma: https://www.figma.com/file/IzGhwCqieol6pLbicX2EVa/Untitled?node-id=0%3A1**
+**API Weater: https://console.hgbrasil.com/documentation/weather**
