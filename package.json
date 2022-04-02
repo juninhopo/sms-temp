@@ -1,0 +1,22 @@
+{
+  "name": "sms-temp",
+  "version": "1.0.0",
+  "description": "* Backend que consome uma api de tempo que a cada 1h informa a temperatura do local selecionado via um sistema de sms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juninhopo/sms-temp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juninhopo/sms-temp/issues"
+  },
+  "homepage": "https://github.com/juninhopo/sms-temp#readme",
+  "dependencies": {
+    "axion": "^0.1.0"
+  }
+}
