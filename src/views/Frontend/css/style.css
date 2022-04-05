@@ -71,6 +71,7 @@
     outline: none;
     border-radius: 20px;
     padding: 10px;
+    font-size: 1.15rem;
 }
 
 .card-input label{
