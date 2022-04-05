@@ -1,7 +1,7 @@
 const axios = require ("axios");
 
 //Formando o url certo
-const urlKey = 'https://api.hgbrasil.com/weather?key='; 
+const urlKey = 'https://api.hgbrasil.com/weather?key=' + '???'; 
 const separador = '&';
 const cidade = 'city_name=' + 'Campo Grande,MS';
 
@@ -21,4 +21,4 @@ async function getTemperaturaLocal() {
     .catch(error => console.log(error))
 }
 
-getTemperaturaLocal()
+getTemperaturaLocal();
