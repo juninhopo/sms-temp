@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "* Backend que consome uma api de tempo que a cada 1h informa a temperatura do local selecionado via um sistema de sms.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/server.ts"
@@ -16,6 +17,7 @@
   "homepage": "https://github.com/juninhopo/sms-temp#readme",
   "dependencies": {
     "axion": "^0.1.0",
+    "axios": "^0.26.1",
     "express": "^4.17.3"
   },
   "devDependencies": {
