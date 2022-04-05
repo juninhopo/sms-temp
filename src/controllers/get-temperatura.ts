@@ -14,7 +14,9 @@ async function getTemperaturaLocal() {
         console.log('Local: ' + response.data.results.city);
         console.log('Data: ' + response.data.results.date);
         console.log('Hora: ' + response.data.results.time);
-        console.log('Temperatura: ' + response.data.results.temp + '°');
+        console.log('Temperatura: ' + response.data.results.temp + '°\n');
+        console.log('--Informações adicionais--\n')
+        console.log('Amanhã teremos máxima de ' + response.data.results.forecast[1].max + '°' + ' e mínima de ' + response.data.results.forecast[1].min + '°');
     })  
     .catch(error => console.log(error))
 }
