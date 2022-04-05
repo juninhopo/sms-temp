@@ -1,5 +1,0 @@
-const Cidade = 
-
-function getTemp() {
-
-}
