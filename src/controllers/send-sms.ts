@@ -1,6 +1,5 @@
 const twilio = require('twilio');
 
-
 const accountSid = '???';
 const authToken = '???';
 const client = new twilio(accountSid, authToken);
