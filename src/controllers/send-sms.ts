@@ -1,11 +1,15 @@
-// const axios = require ("axios");
+const twilio = require('twilio');
 
-const urlSMS = 'https://api.twilio.com/2010-04-01/Accounts/$TWILIO_ACCOUNT_SID/Messages.json';
 
-const accountSid = process.env.TWILIO_ACCOUNT_SID;
-const authToken = process.env.TWILIO_AUTH_TOKEN;
-const client = require('twilio')(accountSid, authToken);
+const accountSid = '???';
+const authToken = '???';
+const client = new twilio(accountSid, authToken);
 
-async function sendSMS() {
-    await axios.post("")
-}
+client.messages
+  .create({
+    body: 'SMS Temperatura informa -> Local: Campo Grande, MS, Data: 05/04/2022, Hora: 05:29, Temperatura: 22°, --Informações adicionais: Amanhã teremos máxima de 30° e mínima de 20°',
+    to: '+5567991713259',
+    from: '+12183964844',
+  })
+  .then((message) => console.log(message.sid));
+
