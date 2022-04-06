@@ -7,12 +7,13 @@
 <p>**API Send SMS: https://www.twilio.com/console/projects/summary**</p>
 
 
-**Iniciar o servidor**
+
+### **Iniciar o servidor**
 ```
 yarn dev
 ```
 
-**Enviar o SMS**
+### **Enviar o SMS**
 ```
 http://localhost:3333/send-sms/phone
 ```
