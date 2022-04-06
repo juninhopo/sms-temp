@@ -18,5 +18,8 @@ Phone = 67XXXXXXXXX
 http://localhost:3333/send-sms/phone
 ```
 
-<p>API Weater: https://console.hgbrasil.com/users/sign_in</p>
-<p>API Send SMS: https://www.twilio.com/console/projects/summary</p>
+### **API's utilizadas**
+```
+API Weater: https://console.hgbrasil.com/users/sign_in
+API Send SMS: https://www.twilio.com/console/projects/summary
+```
