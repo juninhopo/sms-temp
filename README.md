@@ -9,6 +9,7 @@ yarn dev
 
 ### **Enviar o SMS**
 ```
+- Phone: 67XXXXXXXXX
 http://localhost:3333/send-sms/phone
 ```
 
