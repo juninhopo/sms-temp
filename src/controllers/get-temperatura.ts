@@ -1,7 +1,7 @@
 const axios = require ("axios");
 
 //Formando o url certo
-const urlKey = 'https://api.hgbrasil.com/weather?key=' + '84db58cc'; 
+const urlKey = 'https://api.hgbrasil.com/weather?key=' + '???'; 
 const separador = '&';
 const cidade = 'city_name=' + 'Campo Grande,MS';
 

@@ -1,8 +1,8 @@
 const twilio = require('twilio');
 const { getTemperaturaLocal } = require('./get-temperatura.ts');
 
-const accountSid = 'AC96830b2a7a04c52deb752582c3797555';
-const authToken = 'ff98538f00fde59b61ca20c05d215189';
+const accountSid = '???';
+const authToken = '???';
 const client = new twilio(accountSid, authToken);
 
 
