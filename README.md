@@ -5,3 +5,14 @@
 <a>**Figma: https://www.figma.com/file/IzGhwCqieol6pLbicX2EVa/Untitled?node-id=0%3A1**</a>
 <a>**API Weater: https://console.hgbrasil.com/users/sign_in**</a>
 <a>**API Send SMS: https://www.twilio.com/console/projects/summary**</a>
+
+
+** Iniciar o servidor **
+```
+yarn dev
+```
+
+** Enviar o SMS **
+```
+http://localhost:3333/send-sms/phone
+```
