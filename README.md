@@ -3,8 +3,7 @@
 * Backend consome API Weater (Nos traz informações em tempo real sobre temperatura nas cidades Brasileiras) envia para uma Function onde realiza a chamada de uma API da Twilio realizando o envio de SMS para o celular desejado. 
 
 <div float="left" align="center">
-    <img src="./src/views/Frontend/images/resSendSms.png" width="35%" >
-    <img src="./src/views/Frontend/images/smsInCel.jpeg" width="46%">
+    <img src="./src/img/123.png" width="100%" >
 </div>
 
 ### **Iniciar o servidor**
